@@ -1,10 +1,3 @@
-h1 {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: green;
-    box-sizing: content-box;
-    margin-left: 150px;
-}
-
 #ul-1 li {
     list-style-type: none;
     display: inline;
@@ -17,6 +10,7 @@ h1 {
     padding-bottom: 20px;
     font-size: 15px;
     margin: 45px;
+    cursor: pointer;
 }
 
 #ul-1 {
@@ -50,6 +44,7 @@ input {
     padding-bottom: 15px;
     padding-left: 60px;
     padding-right: 60px;
+    cursor: pointer;
 }
 
 img {
@@ -61,24 +56,63 @@ button {
     background-color: rgb(255, 136, 0);
     padding-top: 0px;
     border-radius: 5px;
-    border: 2px solid rgb(255, 136, 0);
+    border: 2px solid black;
     padding-left: 80px;
     padding-right: 80px;
     padding-bottom: 13px;
+    cursor: pointer;
+    margin-left: 40px;
 }
 
 article {
-    display: grid;
-    grid-template-rows: 100px;
-    grid-template-columns: 1fr 1fr;
-    gap: 5px;
+    display: flex;
 }
 
 #section1 {
     box-shadow: 5px 5px 10px 1px rgba(0, 0, 0, 0.8);
-    height: 200px;
-    width: 250px;
+    height: 700px;
+    width: 240px;
     margin-left: 140px;
     padding-left: 10px;
     border-radius: 5px;
+}
+
+#section2 {
+ text-align: left;  
+ height: 300px;
+ margin-left: 140px;
+ padding-left: 10px;
+}
+
+h4 {
+    color: green;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#ul-2 li {
+    cursor: pointer;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1 {
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: left;
+}
+
+h2 {
+    color: gray;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: left;
+}
+
+.img {
+   border: 1px solid grey;
+   height: 90px;
+   width: 100px;
+   text-align: left;
+}
+.container1 {
+   width: 800px;
+   padding-left: 70px;
 }
