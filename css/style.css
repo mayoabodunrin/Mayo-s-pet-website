@@ -47,12 +47,12 @@ input {
     cursor: pointer;
 }
 
-img {
+.img1 {
     width: 50px;
     height: 30px;
 }
 
-button {
+#button1 {
     background-color: rgb(255, 136, 0);
     padding-top: 0px;
     border-radius: 5px;
@@ -70,9 +70,9 @@ article {
 
 #section1 {
     box-shadow: 5px 5px 10px 1px rgba(0, 0, 0, 0.8);
-    height: 700px;
+    height: 820px;
     width: 240px;
-    margin-left: 140px;
+    margin-left: 100px;
     padding-left: 10px;
     border-radius: 5px;
 }
@@ -106,13 +106,89 @@ h2 {
     text-align: left;
 }
 
-.img {
+.img2 {
    border: 1px solid grey;
    height: 90px;
    width: 100px;
    text-align: left;
+   border-radius: 5px;
 }
 .container1 {
    width: 800px;
-   padding-left: 70px;
+}
+
+.arrow {
+    height: 25px;
+    width: 25px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.arrow2 {
+    height: 25px;
+    width: 25px;
+    padding-bottom: 22px;
+    padding-top: 20px;
+}
+
+.welcoming {
+    height: 200px;
+    width: 640px;
+    border-radius: 5px;
+    margin-left: 40px;
+    padding-bottom: 50px;
+}
+
+.container2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.img3 {
+    width: 120px;
+    height: 120px;
+    padding-left: 10px;
+}
+
+.recommend {
+    border: 1px solid gray;
+    border-radius: 5px;
+    gap: 10px;
+    margin-right: 10px;
+    width: 150px;
+    height: 350px;
+}
+
+.star {
+  display: inline;
+  height: 25px;
+    width: 25px;
+}
+
+abbr {
+    text-decoration: none;
+}
+
+h6 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: gray;
+}
+
+pre {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.cats {
+    border: 1px solid rgb(215, 215, 215);
+    background-color: rgb(215, 215, 215);
+}
+
+.cats pre {
+    display: inline;
+    margin-top: 60px;
+}
+
+.cats img {
+    margin-left: 535px;
+    height: 200px;
 }
