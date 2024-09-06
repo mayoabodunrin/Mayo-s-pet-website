@@ -13,6 +13,13 @@
     cursor: pointer;
 }
 
+#ul-2 li {
+    list-style: none;
+    padding-right: 10px;
+    cursor: pointer;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
 #ul-1 {
     background-color: green;
     padding: 6px;
@@ -48,18 +55,18 @@ input {
 }
 
 .img1 {
-    width: 50px;
+    width: 60px;
     height: 30px;
 }
 
 #button1 {
-    background-color: rgb(255, 136, 0);
-    padding-top: 0px;
-    border-radius: 5px;
-    border: 2px solid black;
+    background-color: rgb(255, 138, 38);
+    padding-top: 8px;
+    border-radius: 9px;
     padding-left: 80px;
     padding-right: 80px;
-    padding-bottom: 13px;
+    padding-bottom: 6px;
+    margin-bottom: 6px;
     cursor: pointer;
     margin-left: 40px;
 }
@@ -69,19 +76,21 @@ article {
 }
 
 #section1 {
-    box-shadow: 5px 5px 10px 1px rgba(0, 0, 0, 0.8);
-    height: 820px;
-    width: 240px;
-    margin-left: 100px;
-    padding-left: 10px;
+    box-shadow: 5px 5px 10px 1px rgb(226, 226, 226);
+    height: 900px;
+    width: 500px;
+    margin-left: 80px;
+    padding-left: 2px;
     border-radius: 5px;
 }
 
 #section2 {
- text-align: left;  
- height: 300px;
- margin-left: 140px;
- padding-left: 10px;
+ text-align: left; 
+ width: 990px;
+ height: 1050px;
+ margin-left: 15px;
+ padding-left: 5px;
+ padding-right: 200px;
 }
 
 h4 {
@@ -89,10 +98,7 @@ h4 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-#ul-2 li {
-    cursor: pointer;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
+
 
 h1 {
     color: black;
@@ -107,14 +113,15 @@ h2 {
 }
 
 .img2 {
-   border: 1px solid grey;
+   border: 1px solid rgb(226, 226, 226);
    height: 90px;
-   width: 100px;
+   width: 108px;
    text-align: left;
    border-radius: 5px;
+   margin-left: 10px;
 }
 .container1 {
-   width: 800px;
+   width: 900px;
 }
 
 .arrow {
@@ -151,12 +158,12 @@ h2 {
 }
 
 .recommend {
-    border: 1px solid gray;
+    border: 1px solid rgb(226, 226, 226);
     border-radius: 5px;
-    gap: 10px;
-    margin-right: 10px;
-    width: 150px;
+    padding-left: 10px;
+    width: 180px;
     height: 350px;
+    margin-left: 60px;
 }
 
 .star {
@@ -179,16 +186,48 @@ pre {
 }
 
 .cats {
-    border: 1px solid rgb(215, 215, 215);
-    background-color: rgb(215, 215, 215);
+    border: 1px solid rgb(226, 226, 226);
+    border-radius: 5px;
+    background-color: rgb(226, 226, 226);
+    display: flex;
+    height: 180px;
+}
+
+.cats h4 {
+    margin-left: 15px;
+    color: #242121;
+    height: 60px;
+    position: absolute;
 }
 
 .cats pre {
-    display: inline;
-    margin-top: 60px;
+    color: #242121;
+    position: absolute;
 }
 
 .cats img {
-    margin-left: 535px;
-    height: 200px;
+    margin-left: 530px;
+    height: 180px;
+}
+
+.nav-item{
+    color: white;
+}
+
+.green {
+    color: rgb(60, 151, 0);
+}
+
+h4 {
+    color: rgb(85, 85, 85);
+}
+
+.top {
+    border: 1px solid rgb(85, 85, 85);
+    height: 100px;
+    position: absolute;
+    top: 1100px;
+    background-color: white;
+    left: 500px;
+    width: 100px;
 }

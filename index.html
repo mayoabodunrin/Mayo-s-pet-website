@@ -4,31 +4,52 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mayo's Pet Website</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 <body>
     <p id="p">Free delivery from $49 (T&C's apply)**</p>
         <form action="">
-            <label for="f">Mayo's Pet Website</label>
+            <label for="f" style="color: rgb(60, 151, 0);">Mayo's Pet Website</label>
             <input type="text" placeholder="Search the store">
             <button id="button1"> <img class="img1" src="cart.jfif" alt="">Cart</button>
         </form>
-    <nav>
-    <ul id="ul-1">
-        <li>Dog</li>
-        <li>Cat</li>
-        <li>Small Pet</li>
-        <li>Bird</li>
-        <li>Aquatic</li>
-        <li>+ vet</li>
-        <li>Top Brands</li>
-        <li>Special Offers</li>
-    </ul>
-    </nav>
+    <nav class="navbar navbar-expand-lg text-white" style="height: 60px; background-color: rgb(60, 151, 0);">
+        <div class="container-fluid">
+            <ul class="navbar-nav me-auto" style="padding-left: 70px; padding-right: 10px;">
+                <li class="nav-item ">
+                    <a href="#" class="nav-link text-light" style="padding: 45px;">Dog</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link text-light" style="padding: 45px;">Cat</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link text-light" style="padding: 45px;">Small Pet</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link text-light" style="padding: 45px;">Bird</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link text-light" style="padding: 45px;">Aquatic</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link text-light" style="padding: 45px;">+vet</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link text-light" style="padding: 45px;">Top Brands</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link text-light" style="padding: 45px;">Special Offers</a>
+                </li>
+            </ul>
+        </div>
+  </nav>
+  <br>
    <div>
     <article>
         <section id="section1">
-            <h4>Dog</h4>
+            <h6 class="green">Dog</h6>
             <ul id="ul-2">
                 <li>Dry Dog Food</li>
                 <li>Wet Dog Food</li>
@@ -37,7 +58,7 @@
                 <li>Dog Kennels, Dog Flaps & Gates</li>
                 <li>Dog Crates & Dog Travel</li>
             </ul>
-            <h4>Cat</h4>
+            <h6 class="green">Cat</h6>
             <ul id="ul-2">
                 <li>Dry Cat Food</li>
                 <li>Wet Cat Food</li>
@@ -46,7 +67,7 @@
                 <li>Cat Trees & Cat Scratching Posts</li>
                 <li>Cat Baskets & Beds</li>
             </ul>
-            <h4>Small Pet</h4>
+            <h6 class="green">Small Pet</h6>
             <ul id="ul-2">
                 <li>Small Pet Cages</li>
                 <li>Rabbit & Guinea Pig Hutches</li>
@@ -55,13 +76,14 @@
                 <li>Cage Accessories</li>
                 <li>Snacks & Supplements</li>
             </ul>
-            <h4>Bird</h4>
-            <h4>Aquatic</h4>
-            <h4>+ vet</h4>
+            <h6 class="green">Bird</h6>
+            <h6 class="green">Aquatic</h6>
+            <h6 class="green">+ vet</h6>
         </section>
         <section id="section2">
             <img class="welcoming" src="new picture.PNG" alt="">
-            <h2>Exclusive to Mayo's Pet Website</h2>
+            <h4>Exclusive to Mayo's Pet Website</h4>
+            <br>
             <div class="container1">
             <img class="arrow2" src="arrow-Copy.png" alt="">
             <img class="img2" src="concept-for-life.webp" alt="">
@@ -72,14 +94,15 @@
             <img class="img2" src="cosma.webp" alt="">
             <img class="arrow" src="arrow.png" alt="">
             </div>
-
-            <h2>Top recommendations:</h2>
+             <br>
+            <h4>Top recommendations:</h4>
+            <br>
             <div class="container2">
                 <section class="recommend">
                 <img class="img3" src="cat litter.jpg" alt="">
-                    <pre><h4>Cat's Best
-Original Cat litter
-                    </h4></pre>
+                    <pre><h6>Cat's Best
+Original Cat litter</h6></pre>
+<br>
                     <img class="star" src="star.png" alt="">
                     <img class="star" src="star.png" alt="">
                     <img class="star" src="star.png" alt="">
@@ -91,9 +114,9 @@ Original Cat litter
                 </section>
                 <section class="recommend">
                     <img class="img3" src="Applaws.jpg" alt="">
-                    <pre><h4><abbr title="Applaws Cat Food 70g - Tuna / Fish">Applaws Cat
+                    <pre><h6><abbr style="text-decoration: none;" title="Applaws Cat Food 70g - Tuna / Fish">Applaws Cat
 Food 70g - Tun...</abbr>
-                    </h4></pre>
+                    </h6></pre>
                     <img class="star" src="star.png" alt="">
                     <img class="star" src="star.png" alt="">
                     <img class="star" src="star.png" alt="">
@@ -104,9 +127,9 @@ Food 70g - Tun...</abbr>
                 </section>
                 <section class="recommend">
                     <img class="img3" src="Felix.jpg" alt="">
-                    <pre><h4>Felix Soup 6 x
+                    <pre><h6>Felix Soup 6 x
 48g
-                    </h4></pre>
+                    </h6></pre>
                     <img class="star" src="star.png" alt="">
                     <img class="star" src="star.png" alt="">
                     <img class="star" src="star.png" alt="">
@@ -117,9 +140,9 @@ Food 70g - Tun...</abbr>
                 </section>
                 <section class="recommend">
                     <img class="img3" src="cosma.jpg" alt="">
-                    <pre><h4>Cosma Nature 6
+                    <pre><h6>Cosma Nature 6
 x 70g
-                    </h4></pre>
+                    </h6></pre>
                     <img class="star" src="star.png" alt="">
                     <img class="star" src="star.png" alt="">
                     <img class="star" src="star.png" alt="">
@@ -129,15 +152,18 @@ x 70g
 <h6>$8.99/kg</h6>    
                 </section>
             </div>
-
+             <br>
+             <div>
             <section class="cats">
-             <pre>Cat</pre>
+                <pre><h4>Cat</h4>
+                    
+     All categories ></pre>
+             <div>
             <img src="gray-cat.jfif" alt="">
+             </div>
             </section>
-
-            <section class="cat">
-
-            </section>
+            <h4 class="top">Top Sellers for Cats</h4>
+            </div>
         </section>
     </article>
    </div>
